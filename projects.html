@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="مشاريع Hocine Borega — Python (CrewAI, LangChain) + Vanilla Web + Automation." />
+  <title>المشاريع | Hocine Borega</title>
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body data-page="projects">
+  <a class="skip-link" href="#content" data-i18n="common.skip">تخطّي إلى المحتوى</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="./index.html" aria-label="العودة إلى صفحة التعريف" data-i18n-aria="common.brandBack">
+        <span class="mark" aria-hidden="true"></span>
+        <span class="brand-title">
+          <strong>Hocine Borega</strong>
+          <span>Python · CrewAI · LangChain · Vanilla Web</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="التنقّل" data-i18n-aria="common.navAria">
+        <a href="./index.html" data-i18n="common.nav.about">التعريف</a>
+        <a href="./projects.html" aria-current="page" data-i18n="common.nav.projects">المشاريع</a>
+        <a href="./contact.html" data-i18n="common.nav.contact">التواصل</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="btn lang-toggle" type="button" data-lang-toggle aria-label="تحويل اللغة إلى الإنجليزية">
+          <span class="pill"><span class="mono" data-lang-label>EN</span></span>
+          <small class="mono">Lang</small>
+        </button>
+
+        <button class="btn theme-toggle" type="button" data-theme-toggle aria-pressed="false" aria-label="تبديل الوضع" data-i18n-aria="common.themeToggleAria">
+          <span class="pill">
+            <span class="theme-dot" aria-hidden="true"></span>
+            <span data-theme-label>فاتح</span>
+          </span>
+          <small class="mono">Theme</small>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="content" class="container" role="main">
+    <section class="hero" aria-label="مشاريعي">
+      <div class="hero-inner">
+        <div>
+          <div class="kicker">
+            <b data-i18n="projects.kicker.title">مشاريع</b>
+            <span class="sep" aria-hidden="true"></span>
+            <span class="mono">Python · CrewAI · LangChain · Vanilla Web</span>
+          </div>
+
+          <h1 style="margin-top: var(--space-4);" data-i18n="projects.hero.title">نماذج من الأعمال</h1>
+          <p data-i18n-html="projects.hero.p">
+            أمثلة من مجالات عملي: سير عمل AI Agents، ربط قواعد البيانات مع LLMs، واجهات Vanilla، وأتمتة Python. كل الكود موجود على
+            <a class="text-link mono" dir="ltr" href="https://github.com/hocine1552" target="_blank" rel="noreferrer">github.com/hocine1552</a>.
+          </p>
+
+          <div class="hero-cta" style="margin-top: var(--space-5);">
+            <a class="btn btn-primary" href="https://github.com/hocine1552" target="_blank" rel="noreferrer">GitHub Portfolio</a>
+            <a class="btn" href="./contact.html" data-i18n="projects.hero.cta.contact">تواصل معي</a>
+          </div>
+        </div>
+
+        <aside class="panel" aria-label="معايير الاختيار">
+          <h3 data-i18n="projects.panel.title">ما الذي يهمني في المشاريع؟</h3>
+          <p data-i18n="projects.panel.p">البساطة، سرعة التحميل، وسهولة التشغيل — ثم وضوح الفكرة في الكود والواجهة.</p>
+          <div class="chips" style="margin-top: var(--space-3);">
+            <span class="chip">Low load time</span>
+            <span class="chip">Maintainable</span>
+            <span class="chip">Clear UX</span>
+            <span class="chip">Practical</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" aria-label="قائمة المشاريع">
+      <div class="section-head">
+        <div>
+          <h2 data-i18n="projects.list.title">المشاريع</h2>
+          <p data-i18n="projects.list.subtitle">مختصرات عن مجالات عمل كتبتها/بنيتها فعليًا، مع رابط مباشر لملف GitHub.</p>
+        </div>
+      </div>
+
+      <div class="grid cols-2">
+        <article class="card">
+          <div class="card-top">
+            <h3>AI Agent Workflows</h3>
+            <span class="badge">CrewAI</span>
+          </div>
+          <p data-i18n="projects.card1.desc">سكربتات Python باستخدام CrewAI لبناء وكلاء مستقلين يمررون البيانات لبعضهم لإنهاء مهام محددة.</p>
+          <div class="chips" style="margin-top: var(--space-3);">
+            <span class="chip"><code>Python</code></span>
+            <span class="chip"><code>CrewAI</code></span>
+            <span class="chip">Multi-agent</span>
+          </div>
+          <div class="hero-cta" style="margin-top: var(--space-4);">
+            <a class="btn btn-ghost" href="https://github.com/hocine1552" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="btn btn-ghost" href="https://github.com/hocine1552?tab=repositories" target="_blank" rel="noreferrer" data-i18n="common.github.repos">المستودعات</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <h3>Database‑LLM Connections</h3>
+            <span class="badge">LangChain</span>
+          </div>
+          <p data-i18n="projects.card2.desc">تطبيقات باستخدام LangChain لربط نماذج اللغة بقواعد بيانات محلية مع إدارة السياق واستدعاءات API.</p>
+          <div class="chips" style="margin-top: var(--space-3);">
+            <span class="chip"><code>LangChain</code></span>
+            <span class="chip">Local DB</span>
+            <span class="chip"><code>REST APIs</code></span>
+          </div>
+          <div class="hero-cta" style="margin-top: var(--space-4);">
+            <a class="btn btn-ghost" href="https://github.com/hocine1552" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="btn btn-ghost" href="https://github.com/hocine1552?tab=repositories" target="_blank" rel="noreferrer" data-i18n="common.github.repos">المستودعات</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <h3>Vanilla Frontends</h3>
+            <span class="badge">Web</span>
+          </div>
+          <p data-i18n="projects.card3.desc">تصميم وتطوير مواقع Responsive بالكامل من الصفر باستخدام HTML/CSS/JS للحفاظ على خفة الموقع وسرعة التحميل.</p>
+          <div class="chips" style="margin-top: var(--space-3);">
+            <span class="chip"><code>HTML5/CSS3</code></span>
+            <span class="chip"><code>Vanilla JS</code></span>
+            <span class="chip">Responsive</span>
+          </div>
+          <div class="hero-cta" style="margin-top: var(--space-4);">
+            <a class="btn btn-ghost" href="https://github.com/hocine1552" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="btn btn-ghost" href="https://github.com/hocine1552?tab=repositories" target="_blank" rel="noreferrer" data-i18n="common.github.repos">المستودعات</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <h3>Python Automation</h3>
+            <span class="badge">Automation</span>
+          </div>
+          <p data-i18n="projects.card4.desc">سكربتات أدوات لأتمتة المهام الروتينية: Web scraping وإدارة ملفات محلية بشكل منظم.</p>
+          <div class="chips" style="margin-top: var(--space-3);">
+            <span class="chip"><code>Python</code></span>
+            <span class="chip">Web scraping</span>
+            <span class="chip">File tools</span>
+          </div>
+          <div class="hero-cta" style="margin-top: var(--space-4);">
+            <a class="btn btn-ghost" href="https://github.com/hocine1552" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="btn btn-ghost" href="https://github.com/hocine1552?tab=repositories" target="_blank" rel="noreferrer" data-i18n="common.github.repos">المستودعات</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer" role="contentinfo">
+      <div class="footer-inner">
+        <div>
+          <strong>Hocine Borega</strong>
+          <small>
+            <span class="mono" dir="ltr">Algeria</span> ·
+            <a class="text-link mono" dir="ltr" href="mailto:hocineborega@gmail.com">hocineborega@gmail.com</a>
+          </small>
+        </div>
+        <div class="inline-links" aria-label="روابط" data-i18n-aria="common.footer.links">
+          <a href="./index.html" data-i18n="common.nav.about">التعريف</a>
+          <a href="./contact.html" data-i18n="common.nav.contact">التواصل</a>
+          <a class="text-link" href="https://github.com/hocine1552" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
